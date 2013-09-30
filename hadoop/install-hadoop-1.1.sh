@@ -1,5 +1,5 @@
 #!/bin/bash
-MIRROR=http://www.gtlib.gatech.edu/pub/apache/hadoop/common/hadoop-1.1.1/
+MIRROR=https://archive.apache.org/dist/hadoop/core/hadoop-1.1.1/hadoop-1.1.1.tar.gz
 VERSION=hadoop-1.1.1
 
 apt-get update
