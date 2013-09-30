@@ -1,5 +1,5 @@
 #!/bin/bash
-MIRROR=https://archive.apache.org/dist/hadoop/core/hadoop-1.1.1/hadoop-1.1.1.tar.gz
+MIRROR=https://archive.apache.org/dist/hadoop/core/hadoop-1.1.1/
 VERSION=hadoop-1.1.1
 
 apt-get update
