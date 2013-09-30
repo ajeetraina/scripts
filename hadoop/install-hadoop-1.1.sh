@@ -49,3 +49,11 @@ cat /home/hduser/.ssh/id_rsa.pub >> /home/hduser/.ssh/authorized_keys
 su - hduser -c "ssh -o StrictHostKeyChecking=no localhost echo "# login once, to add to known hosts
 
 su - hduser -c "/usr/local/hadoop/bin/hadoop namenode -format"
+chmod 750 /home/hduser/.ssh/authorized_keys
+echo "I am going to Start Hadoop related Services Now"
+cd /usr/local/hadoop
+bin/start-all.sh
+echo "Run jps command to see what services are currently running"
+echo " You can start the Hadoop services through bin/stop-all.sh under /usr/local/hadoop directory"
+echo " Enjoy - From Ajeet"
+
